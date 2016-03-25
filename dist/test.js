@@ -1,0 +1,12 @@
+/// <reference path="typings/tsd.d.ts" />
+console.log("starting test");
+var playcontrolConvert = require("./index.js");
+playcontrolConvert
+    .from("./test/test.flac")
+    .to("./test/test.m4v")
+    .then(function () {
+    console.log("Conversion successfull");
+});
+;
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRlc3QudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEseUNBQXlDO0FBQ3pDLE9BQU8sQ0FBQyxHQUFHLENBQUMsZUFBZSxDQUFDLENBQUE7QUFDNUIsSUFBSSxrQkFBa0IsR0FBRyxPQUFPLENBQUMsWUFBWSxDQUFDLENBQUM7QUFDL0Msa0JBQWtCO0tBQ2IsSUFBSSxDQUFDLGtCQUFrQixDQUFDO0tBQ3hCLEVBQUUsQ0FBQyxpQkFBaUIsQ0FBQztLQUNyQixJQUFJLENBQUM7SUFDRixPQUFPLENBQUMsR0FBRyxDQUFDLHdCQUF3QixDQUFDLENBQUE7QUFBQSxDQUFBLEFBQUMsQ0FBQSxDQUFDO0FBQ3pDLENBQUMiLCJmaWxlIjoidGVzdC5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vLyA8cmVmZXJlbmNlIHBhdGg9XCJ0eXBpbmdzL3RzZC5kLnRzXCIgLz5cbmNvbnNvbGUubG9nKFwic3RhcnRpbmcgdGVzdFwiKVxudmFyIHBsYXljb250cm9sQ29udmVydCA9IHJlcXVpcmUoXCIuL2luZGV4LmpzXCIpO1xucGxheWNvbnRyb2xDb252ZXJ0XG4gICAgLmZyb20oXCIuL3Rlc3QvdGVzdC5mbGFjXCIpXG4gICAgLnRvKFwiLi90ZXN0L3Rlc3QubTR2XCIpXG4gICAgLnRoZW4oZnVuY3Rpb24oKSB7XG4gICAgICAgIGNvbnNvbGUubG9nKFwiQ29udmVyc2lvbiBzdWNjZXNzZnVsbFwiKSk7XG4gICAgfSk7Il0sInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9
