@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+deploy:
+  provider: npm
+  email: npm@lossless.digital
+  api_key:
+    secure: Zo1JNJzpuUeoRcx1BlZvrDbDNHHTiXl8HKdpe+2XrtyjAtTGqPha2HfeoRrVrL6sjiGazDsWZycZUHLvvplEXc8ThejmRXbGW4is+bzovjUDsAfgJGi+nk9NZfQk64POq7Aw9rWwPqPu77QFxB1T6ysPN9rdWQdZkvegU/RdJGVQZpcVbjJmQdwU+yRtrWo+1HZ6B8pJY9WOxfYWMXawSlKIR9VsvPxrV1Sv0G8ieVSRIHXvj2oFt6qH6AiLfo9Sh7CpqM3THnrGrwmzxTBzXJt+Iu7Aouwy+VG014+AEbAWOMqfJJ5xSGDj6dgVOVy1vDtYDViJz1DuEnkTpAKe/DRZI4QF/SeSJWiovdiZDydkfmBhO3jwexxl5OE+r+H75WfqU8dDjAp2aZIbLcIMCPrSoUWZkiQ6VFbQZAWd1h3Od6SaEGvv3eLl2cuTVDlVUGECYDhgy318gRkn9rF9y9kwPm8jzT45Rz2Ywi5w/or4Bbsf8tva96l81duNIr6XjEengXen3/XHV7wOEAF+0jY6siJ88CPZ2sle8/m56TZt7JhQ3+YM9WzuzH55t5RFBf5kRbn7tktotyGbSST5iEGqfISMnowqBPVNuT5omOz2uzwnIvIORktcBI4XD+R9IR5ofLgoQiGtZv9WZ6IBm29oQoEvT3N4d2fO6iptvxU=
+  on:
+    tags: true
+    repo: PlayControl/playcontrol-convert

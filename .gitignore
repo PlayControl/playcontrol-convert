@@ -1,0 +1,13 @@
+node_modules/
+test/
+.idea/
+.c9/
+docs/
+coverage/
+ffmpeg/
+
+#npm debug
+npm-debug.log
+
+ts/*.js
+ts/*.js.map
