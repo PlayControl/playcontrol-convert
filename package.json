@@ -1,11 +1,11 @@
 {
   "name": "playcontrol-convert",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "converts media files from one format into another",
   "main": "dist/index.js",
   "scripts": {
     "test": "(npmts)",
-    "install":"(node ./install/install.js)"
+    "install": "(node ./install/install.js)"
   },
   "repository": {
     "type": "git",
