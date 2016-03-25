@@ -4,10 +4,11 @@ test/
 .c9/
 docs/
 coverage/
-ffmpeg/
+assets/
 
 #npm debug
 npm-debug.log
 
 ts/*.js
 ts/*.js.map
+ts/typings/
