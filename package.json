@@ -28,8 +28,8 @@
     "q": "^1.4.1"
   },
   "devDependencies": {
-    "gulp": "3.9.0",
-    "gulp-typescript": "2.10.0",
-    "npmts": "^3.5.0"
+    "gulp": "3.9.1",
+    "gulp-typescript": "2.12.1",
+    "npmts": "^3.6.3"
   }
 }
